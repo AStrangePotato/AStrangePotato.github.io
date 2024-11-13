@@ -1,3 +1,3 @@
 function showMessage() {
-    document.getElementById("message").innerHTML = "Hello, world!";
+    alert("Hello, world!");
   }
