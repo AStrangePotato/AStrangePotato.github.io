@@ -1,18 +1,26 @@
-<html>
-  <head>
-    <title>Daniel's Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-  </head>
-
-  <body>
-    <header>
-      <h1>Boba Drops!</h1>
-    </header>
-    <main>
-      <h2>Check out this website hosted with Github Pages!</h2>
-      <p>You can customize this page with your own content and styling.</p>
-      <button onclick="showMessage()">Click me..</button>
-    </main>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSSTimer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>5 Second Challenge</h1>
+    <div id="timer-container">
+      <div id="timer" class="default">0.000</div>
+      <div id="streaming-animation"></div>
+    </div>
+    <div id="instructions">
+      Hold <strong>Space</strong> to prepare, release to start, and press again to stop. The timer is hidden while running!
+    </div>
+    <section id="leaderboard">
+      <h2>Leaderboard</h2>
+      <ol id="leaderboardList"></ol>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
 </html>
