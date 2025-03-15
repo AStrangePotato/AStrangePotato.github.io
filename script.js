@@ -8,6 +8,7 @@ const leaderboardList = document.getElementById("leaderboardList");
 
 const leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
 
+
 // Update the leaderboard display
 function updateLeaderboard() {
   leaderboardList.innerHTML = "";
